@@ -1,21 +1,19 @@
-package br.inatel.controller.model;
+package br.inatel.model;
 
 public class Feitico {
-
     private int idFeitico;
-    private String nomeFeitico;
+    private String nome;
     private String efeito;
     private String nivelDificuldade;
 
-    //construtor
-    public Feitico(int idFeitico, String nomeFeitico, String efeito, String nivelDificuldade) {
-        this.idFeitico = idFeitico;
-        this.nomeFeitico = nomeFeitico;
+    // Construtores
+    public Feitico(String nome, String efeito, String nivelDificuldade) {
+        this.nome = nome;
         this.efeito = efeito;
         this.nivelDificuldade = nivelDificuldade;
-
     }
-    //getters e setters
+
+    // Getters e Setters
     public int getIdFeitico() {
         return idFeitico;
     }
@@ -24,12 +22,12 @@ public class Feitico {
         this.idFeitico = idFeitico;
     }
 
-    public String getNomeFeitico() {
-        return nomeFeitico;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomeFeitico(String nomeFeitico) {
-        this.nomeFeitico = nomeFeitico;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getEfeito() {
@@ -47,6 +45,4 @@ public class Feitico {
     public void setNivelDificuldade(String nivelDificuldade) {
         this.nivelDificuldade = nivelDificuldade;
     }
-
-
 }

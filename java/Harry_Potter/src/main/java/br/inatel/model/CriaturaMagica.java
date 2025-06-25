@@ -1,22 +1,19 @@
-package br.inatel.controller.model;
+package br.inatel.model;
 
 public class CriaturaMagica {
     private int idCriatura;
-    private String nomeCriatura;
+    private String nome;
     private String periculosidade;
     private String habitat;
 
-    //construtor
-    public CriaturaMagica(int idCriatura, String nomeCriatura, String periculosidade, String habitat) {
-        this.idCriatura = idCriatura;
-        this.nomeCriatura = nomeCriatura;
+    // Construtores
+    public CriaturaMagica(String nome, String periculosidade, String habitat) {
+        this.nome = nome;
         this.periculosidade = periculosidade;
         this.habitat = habitat;
-
     }
 
-    //getters e setters
-
+    // Getters e Setters
     public int getIdCriatura() {
         return idCriatura;
     }
@@ -25,12 +22,12 @@ public class CriaturaMagica {
         this.idCriatura = idCriatura;
     }
 
-    public String getNomeCriatura() {
-        return nomeCriatura;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomeCriatura(String nomeCriatura) {
-        this.nomeCriatura = nomeCriatura;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getPericulosidade() {
@@ -49,5 +46,3 @@ public class CriaturaMagica {
         this.habitat = habitat;
     }
 }
-
-

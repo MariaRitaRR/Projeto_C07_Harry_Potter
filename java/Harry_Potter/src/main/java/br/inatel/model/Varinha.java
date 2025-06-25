@@ -1,24 +1,30 @@
-package br.inatel.controller.model;
+package br.inatel.model;
 
 public class Varinha {
-
     private int idVarinha;
     private String nucleo;
     private String madeira;
     private float comprimento;
     private String flexibilidade;
 
-    //construtor
+    // Construtor para criar nova varinha (sem ID)
+    public Varinha(String nucleo, String madeira, float comprimento, String flexibilidade) {
+        this.nucleo = nucleo;
+        this.madeira = madeira;
+        this.comprimento = comprimento;
+        this.flexibilidade = flexibilidade;
+    }
 
+    // Construtor completo (com ID)
     public Varinha(int idVarinha, String nucleo, String madeira, float comprimento, String flexibilidade) {
-
         this.idVarinha = idVarinha;
         this.nucleo = nucleo;
         this.madeira = madeira;
         this.comprimento = comprimento;
         this.flexibilidade = flexibilidade;
     }
-    //getters e setters
+
+    // Getters e Setters
     public int getIdVarinha() {
         return idVarinha;
     }

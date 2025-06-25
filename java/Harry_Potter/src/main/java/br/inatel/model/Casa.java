@@ -1,27 +1,23 @@
-package br.inatel.controller.model;
+package br.inatel.model;
 
 public class Casa {
-
     private int idCasa;
-    private String nomeCasa;
+    private String nome;
     private String fundador;
     private String cores;
     private String mascote;
     private String fantasma;
 
-    //Construtor
-
-    public Casa (int idCasa, String nomeCasa, String fundador, String cores, String mascote, String fantasma)
-    {
-        this.idCasa = idCasa;
-        this.nomeCasa = nomeCasa;
+    // Construtores
+    public Casa(String nome, String fundador, String cores, String mascote, String fantasma) {
+        this.nome = nome;
         this.fundador = fundador;
         this.cores = cores;
         this.mascote = mascote;
         this.fantasma = fantasma;
     }
 
-    //getters e setters
+    // Getters e Setters
     public int getIdCasa() {
         return idCasa;
     }
@@ -30,12 +26,12 @@ public class Casa {
         this.idCasa = idCasa;
     }
 
-    public String getNomeCasa() {
-        return nomeCasa;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomeCasa(String nomeCasa) {
-        this.nomeCasa = nomeCasa;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getFundador() {
@@ -69,8 +65,4 @@ public class Casa {
     public void setFantasma(String fantasma) {
         this.fantasma = fantasma;
     }
-
-
-
-
 }
