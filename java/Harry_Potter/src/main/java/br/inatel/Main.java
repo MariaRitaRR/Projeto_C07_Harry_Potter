@@ -526,7 +526,7 @@ public class Main {
         }
     }
 
-    // Métodos para operações com Varinhas (implementar de forma similar)
+    // Métodos para operações com Varinhas
     private static void listarTodasVarinhas(VarinhaDAO varinhaDAO) {
         System.out.println("\n=== LISTA DE VARINHAS ===");
         ArrayList<Varinha> varinhas = varinhaDAO.selectAllVarinhas();
