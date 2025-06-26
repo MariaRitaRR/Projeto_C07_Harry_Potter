@@ -265,46 +265,46 @@ public class Main {
         } while (opcao != 0);
     }
 
-   /* private static void menuRelatorios(Scanner scanner) {
-        int opcao;
+    /* private static void menuRelatorios(Scanner scanner) {
+         int opcao;
 
-        do {
-            System.out.println("\n=== RELATÓRIOS AVANÇADOS ===");
-            System.out.println("1. Bruxos com informações completas (VIEW)");
-            System.out.println("2. Bruxos e seus feitiços");
-            System.out.println("3. Bruxos e suas interações com criaturas");
-            System.out.println("4. Feitiços mais comuns entre os bruxos");
-            System.out.println("5. Criaturas por nível de periculosidade");
-            System.out.println("0. Voltar ao menu principal");
-            System.out.print("Escolha uma opção: ");
+         do {
+             System.out.println("\n=== RELATÓRIOS AVANÇADOS ===");
+             System.out.println("1. Bruxos com informações completas (VIEW)");
+             System.out.println("2. Bruxos e seus feitiços");
+             System.out.println("3. Bruxos e suas interações com criaturas");
+             System.out.println("4. Feitiços mais comuns entre os bruxos");
+             System.out.println("5. Criaturas por nível de periculosidade");
+             System.out.println("0. Voltar ao menu principal");
+             System.out.print("Escolha uma opção: ");
 
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+             opcao = scanner.nextInt();
+             scanner.nextLine();
 
-            switch (opcao) {
-                case 1:
-                    relatorioBruxosCompletos();
-                    break;
-                case 2:
-                    relatorioBruxosFeiticos();
-                    break;
-                case 3:
-                    relatorioBruxosCriaturas();
-                    break;
-                case 4:
-                    relatorioFeiticosComuns();
-                    break;
-                case 5:
-                    relatorioCriaturasPorPericulosidade();
-                    break;
-                case 0:
-                    break;
-                default:
-                    System.out.println("Opção inválida!");
-            }
-        } while (opcao != 0);
-    }
-*/
+             switch (opcao) {
+                 case 1:
+                     relatorioBruxosCompletos();
+                     break;
+                 case 2:
+                     relatorioBruxosFeiticos();
+                     break;
+                 case 3:
+                     relatorioBruxosCriaturas();
+                     break;
+                 case 4:
+                     relatorioFeiticosComuns();
+                     break;
+                 case 5:
+                     relatorioCriaturasPorPericulosidade();
+                     break;
+                 case 0:
+                     break;
+                 default:
+                     System.out.println("Opção inválida!");
+             }
+         } while (opcao != 0);
+     }
+ */
     // Métodos para operações com Bruxos
     private static void listarTodosBruxos(BruxoDAO bruxoDAO) {
         System.out.println("\n=== LISTA DE BRUXOS ===");

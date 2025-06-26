@@ -9,8 +9,8 @@ public class ConnectionDAO implements AutoCloseable {
     public ResultSet rs;
 
     public final String database = "mydb";
-    public final String user = "vizualiza";
-    public final String password = "1234";
+    public final String user = "root";
+    public final String password = "root";
     public final String url;
 
     // Bloco estático para registrar o driver
