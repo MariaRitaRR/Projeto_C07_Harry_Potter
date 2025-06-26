@@ -29,9 +29,6 @@ public class Varinha {
         return idVarinha;
     }
 
-    public void setIdVarinha(int idVarinha) {
-        this.idVarinha = idVarinha;
-    }
 
     public String getNucleo() {
         return nucleo;

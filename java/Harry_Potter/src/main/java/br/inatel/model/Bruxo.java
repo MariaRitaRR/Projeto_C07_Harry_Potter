@@ -72,14 +72,6 @@ public class Bruxo {
         this.idVarinha = idVarinha;
     }
 
-    public String getDataCadastro() {
-        return dataCadastro;
-    }
-
-    public void setDataCadastro(String dataCadastro) {
-        this.dataCadastro = dataCadastro;
-    }
-
 
     @Override
     public String toString() {

@@ -9,10 +9,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        //Testar conexão
-        BruxoDAO bruxoDao = new BruxoDAO();
-        bruxoDao.connectToDb();
-
         Scanner scanner = new Scanner(System.in);
         int opcao;
 
@@ -46,9 +42,9 @@ public class Main {
                 case 5:
                     menuCriaturas(scanner);
                     break;
-                /*case 6:
+                case 6:
                     menuRelatorios(scanner);
-                    break;*/
+                    break;
                 case 0:
                     System.out.println("Saindo do sistema...");
                     break;
@@ -265,7 +261,7 @@ public class Main {
         } while (opcao != 0);
     }
 
-   /* private static void menuRelatorios(Scanner scanner) {
+   private static void menuRelatorios(Scanner scanner) {
         int opcao;
 
         do {
@@ -304,7 +300,7 @@ public class Main {
             }
         } while (opcao != 0);
     }
-*/
+
     // Métodos para operações com Bruxos
     private static void listarTodosBruxos(BruxoDAO bruxoDAO) {
         System.out.println("\n=== LISTA DE BRUXOS ===");
@@ -334,7 +330,7 @@ public class Main {
         int idade = scanner.nextInt();
         System.out.print("ID da Casa: ");
         int idCasa = scanner.nextInt();
-        System.out.print("ID da Varinha (0 se não tiver): ");
+        System.out.print("ID da Varinha: ");
         int idVarinha = scanner.nextInt();
 
         Bruxo novoBruxo = new Bruxo(nome, idade, idCasa, idVarinha);
