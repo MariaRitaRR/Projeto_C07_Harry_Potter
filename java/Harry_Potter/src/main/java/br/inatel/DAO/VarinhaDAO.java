@@ -1,6 +1,6 @@
 package br.inatel.DAO;
 
-import br.inatel.model.Varinha;
+import br.inatel.Model.Varinha;
 import java.sql.SQLException;
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
 package br.inatel.Service;
 
 import br.inatel.DAO.FeiticoDAO;
-import br.inatel.model.Feitico;
+import br.inatel.Model.Feitico;
 import java.util.ArrayList;
 import java.util.Scanner;
 

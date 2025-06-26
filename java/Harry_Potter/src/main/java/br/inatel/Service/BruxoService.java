@@ -1,7 +1,7 @@
 package br.inatel.Service;
 
 import br.inatel.DAO.BruxoDAO;
-import br.inatel.model.Bruxo;
+import br.inatel.Model.Bruxo;
 
 import java.util.ArrayList;
 import java.util.Scanner;

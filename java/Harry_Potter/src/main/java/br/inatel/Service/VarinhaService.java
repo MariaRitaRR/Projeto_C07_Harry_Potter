@@ -2,8 +2,8 @@ package br.inatel.Service;
 
 import br.inatel.DAO.BruxoDAO;
 import br.inatel.DAO.VarinhaDAO;
-import br.inatel.model.Bruxo;
-import br.inatel.model.Varinha;
+import br.inatel.Model.Bruxo;
+import br.inatel.Model.Varinha;
 import java.util.ArrayList;
 import java.util.Scanner;
 

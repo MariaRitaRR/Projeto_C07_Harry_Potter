@@ -1,6 +1,6 @@
 package br.inatel.DAO;
 
-import br.inatel.model.Bruxo;
+import br.inatel.Model.Bruxo;
 import java.sql.SQLException;
 import java.util.ArrayList;
 

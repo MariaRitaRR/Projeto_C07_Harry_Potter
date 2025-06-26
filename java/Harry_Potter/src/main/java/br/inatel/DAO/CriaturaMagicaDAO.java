@@ -1,7 +1,7 @@
 package br.inatel.DAO;
 
-import br.inatel.model.CriaturaMagica;
-import br.inatel.model.Bruxo;
+import br.inatel.Model.CriaturaMagica;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 

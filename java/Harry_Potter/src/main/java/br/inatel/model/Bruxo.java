@@ -1,4 +1,4 @@
-package br.inatel.model;
+package br.inatel.Model;
 
 public class Bruxo {
 

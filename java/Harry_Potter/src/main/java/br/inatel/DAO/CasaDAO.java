@@ -1,6 +1,6 @@
 package br.inatel.DAO;
 
-import br.inatel.model.Casa;
+import br.inatel.Model.Casa;
 import java.sql.SQLException;
 import java.util.ArrayList;
 

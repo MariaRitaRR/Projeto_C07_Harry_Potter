@@ -1,7 +1,7 @@
 package br.inatel.Service;
 
 import br.inatel.DAO.CriaturaMagicaDAO;
-import br.inatel.model.CriaturaMagica;
+import br.inatel.Model.CriaturaMagica;
 
 import java.util.ArrayList;
 import java.util.Scanner;

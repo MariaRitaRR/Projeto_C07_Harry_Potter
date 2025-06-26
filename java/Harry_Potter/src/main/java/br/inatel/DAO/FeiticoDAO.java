@@ -1,6 +1,6 @@
 package br.inatel.DAO;
 
-import br.inatel.model.Feitico;
+import br.inatel.Model.Feitico;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
