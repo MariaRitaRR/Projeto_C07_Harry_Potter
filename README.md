@@ -45,21 +45,3 @@
 | **Feitiços Mais Comuns** | Ranking dos feitiços mais conhecidos pelos bruxos |
 | **Criaturas por Periculosidade** | Agrupamento inteligente por nível de risco |
 
-## 🛠 Estrutura Técnica
-
-```mermaid
-graph TD
-    A[Main] --> B[Menu Principal]
-    B --> C[Gerenciar Bruxos]
-    B --> D[Gerenciar Casas]
-    B --> E[Gerenciar Varinhas]
-    B --> F[Gerenciar Feitiços]
-    B --> G[Gerenciar Criaturas]
-    B --> H[Relatórios]
-    
-    C --> C1[BruxoDAO]
-    D --> D1[CasaDAO]
-    E --> E1[VarinhaDAO]
-    F --> F1[FeiticoDAO]
-    G --> G1[CriaturaMagicaDAO]
-    H --> H1[Consultas SQL Avançadas]
